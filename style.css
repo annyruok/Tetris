@@ -3,6 +3,12 @@
 }
 
 .grid {
+    display: grid;
+    grid-template-columns: 320px 200px;
+    
+}
+
+.right-column {
     display: flex;
     flex-direction: column;
     justify-content:  space-between;
